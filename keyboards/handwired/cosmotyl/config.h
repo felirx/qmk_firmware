@@ -37,6 +37,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PMW33XX_CPI 1200
 #define PMW33XX_LIFTOFF_DISTANCE 0x04
 
+// These pins are very specific and need to match pi pico pinout
 #define PMW33XX_CS_PIN GP5
 #define SPI_SCK_PIN GP2
 #define SPI_MISO_PIN GP4
