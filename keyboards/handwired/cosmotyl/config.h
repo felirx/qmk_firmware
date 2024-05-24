@@ -31,7 +31,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define POINTING_DEVICE_TASK_THROTTLE_MS 1
 #define ROTATIONAL_TRANSFORM_ANGLE -25
 #define POINTING_DEVICE_INVERT_Y
-#define PMW33XX_CPI 1200
+#define PMW33XX_CPI 900
 #define PMW33XX_LIFTOFF_DISTANCE 0x04
 
 // These pins are very specific and need to match pi pico pinout
@@ -39,9 +39,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SPI_SCK_PIN GP2
 #define SPI_MISO_PIN GP4
 #define SPI_MOSI_PIN GP3
-
-#define BOOTMAGIC_ROW 1
-#define BOOTMAGIC_COLUMN 1
 
 #define MASTER_RIGHT
 //#define POINTING_DEVICE_DEBUG
